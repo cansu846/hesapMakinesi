@@ -1,0 +1,100 @@
+body{
+    background-color:#f8f7f7 ;
+}
+#main{
+    width: 243px;
+    height: 300px;
+    border: 0px solid black;
+    margin: 0 auto;
+}
+#numbers{
+    background-color: #ecf0f1;
+    width: 182px;
+    height: 230px;
+    float: left;
+}
+#numbers .num{
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    background: #fff;
+    border-radius: 4px;
+    margin: 4px;
+}
+#zero{
+    width: 108px !important;
+}
+#operators{
+    background: #95a5a6;
+    width: 60px;
+    height: 230px;
+    float: right;
+}
+#operators .operator{
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    background: #fff;
+    border-radius: 4px;
+    margin: 4px;
+    
+}
+.clear{
+    clear: both;
+}
+.resultOperators{
+    background-color: #95a5a6;
+}
+.resultOperators .resultOperator {
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    background: #fff;
+    border-radius: 4px;
+    margin: 4px;
+}
+#equation{
+   width: 170px ;
+   font-weight: 600;
+}
+#result{
+    background-color: #343636;
+    color: #fff;
+    width: 100%;
+    height: 60px;
+    
+}
+#result #resultInner{
+    background-color: #fff;
+    color: #000;
+    position: relative;
+    top: 12%;
+    width: 92%;
+    height: 45px;
+   margin: auto ;
+   font-weight: 600;
+   text-align: end;
+   font-size: 30px;
+   line-height: 45px;
+   
+}
+.rgb{
+    color: #fff;
+    animation: rgbAnimation 2s infinite;
+    
+}
+@keyframes rgbAnimation{
+    0%{
+        background-color: #E04D01;
+    }
+    50%{
+        background-color: #AB46D2;
+    }
+    100%{
+        background-color: #4E944F;
+    }
+}
+
